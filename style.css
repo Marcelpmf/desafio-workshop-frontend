@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+
+.cabecalho header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 25px;
+    background-color: darkolivegreen;
+    font-weight: bold;
+    width: 100%;
+    height: 15%;
+    background-image: url("https://img.freepik.com/fotos-gratis/abstrato-envelhecido-antigo-antigo-plano-de-fundo-bege-marrom-grunge-papel_213524-91.jpg");
+    background-size: cover;
+
+}
+
+.logo{
+    height: 80px;
+
+}
+
+.menu {
+    display: flex;
+    gap: 65px;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+  }
+
+.botao{
+    background-color: blue;
+    padding: 15px;
+    border-color: white;
+    border-radius: 10px;
+    border-style: none;
+    color: white;
+}
+
+.bloco1{
+    padding: 25px;
+    position: fixed;
+    background-color: darkolivegreen;
+    border-color: black;
+    top: 25%;
+    left: 2%;
+    width: 20%;
+    height: 60%;
+    border-radius: 10px;
+    background-image: url("https://img4.goodfon.com/wallpaper/nbig/7/95/fon-shrift-eifeleva-bashnia-risovanie-liotnye-ispytaniia-avi.jpg");
+    background-size: cover;
+}
+
+.bloco2{
+
+        display: flex;
+        flex-direction:column;
+        align-items: center;
+        justify-content: space-between;
+        padding: 15px;
+        width: 40%;
+        border: 0;
+        background-color: darkolivegreen;
+        border-radius: 50px;
+        right: 20%;
+        top: 25%;
+        position: fixed;
+        text-align: center;
+        background-image: url("https://img4.goodfon.com/wallpaper/nbig/7/95/fon-shrift-eifeleva-bashnia-risovanie-liotnye-ispytaniia-avi.jpg");
+        background-size: cover;
+
+}
+
+.rodape{
+  width: 100%;
+  height: 10%;
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  background-color: darkolivegreen;
+  display: flex;
+  justify-content: center;
+  background-image: url("https://img.freepik.com/fotos-gratis/abstrato-envelhecido-antigo-antigo-plano-de-fundo-bege-marrom-grunge-papel_213524-91.jpg");
+  background-size: cover;
+    
+}
+
+.imagem1roda, .imagem2roda{
+    margin-left: 2rem;
+    height: 46px;
+    width: 46px;
+  }
+
+.bloco1 input{
+    position: relative;
+    display: block;
+    border-radius: 10px;
+    font-size: 15px;
+    width: 90%;
+    padding: 10px;
+    border-color: white;
+    border-style: none;
+}
+
+.titulo {
+    font-size:larger;
+    padding: 10px;
+}
+
+.imagemdosite img{
+    height: 280px;
+    right: 23%;
+    position: absolute;
+    top: 45%;
+    border-radius: 15%;
+
+}
+
